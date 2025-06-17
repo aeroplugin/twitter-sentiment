@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Competitor Sentiment Analysis </title>
+</head>
+<body>
+    <div class="container">
+        <h1>Company name</h1>
+        <form method="POST" action="/analyze">
+            <div>
+                <label> Company <label>
+                <input type="text" name= "company" placeholder="Example: Apple" required>
+            </div>
+            <div>
+                <label> Industry or Sector </label>
+                <input type="text" name= "category" placeholder="Example: Technology" required>
+            </div>
+            <button type="submit"> Analyze </button>
+        </form>
+    </div>
+</body>
+</html>
